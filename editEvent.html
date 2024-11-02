@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="editEvent.css" /> <!-- tambahkan stylesheet CSS Anda di sini -->
+</head>
+<body>
+    <section class="container">
+        <header>Edit Event</header>
+        <!-- <form onsubmit="addEvent(event)"> -->
+        <form action="#" class="form">
+            <div class="input-box">
+                <label>Title</label>
+                <input type="text" placeholder="Enter event title" required />
+            </div>
+
+            <div class="column">
+                <div class="input-box">
+                    <label>Date</label>
+                    <input type="date" placeholder="Enter event date" required />
+                </div>
+                <div class="input-box">
+                    <label>Time</label>
+                    <input type="time" placeholder="Enter event time" required />
+                </div>
+            </div>
+
+            <div class="input-box">
+                <label>Description</label>
+                <textarea placeholder="Enter event description" required></textarea>
+            </div>
+
+            <div class="input-box">
+                <label>Fee</label>
+                <input type="text" placeholder="Enter event fee" required />
+            </div>
+
+            <div class="input-box">
+                <label for="rundown">Rundown</label>
+                <input type="file" id="rundown" name="rundown" accept=".pdf" required>
+            </div>
+
+            
+            <!-- <div class="input-box">
+                <label>Status</label>
+                <select>
+                    <option value="Done">Done</option>
+                    <option value="In Progress">In Progress</option>
+                </select>
+            </div> -->
+            
+
+
+            <button>Submit</button>
+        </form>
+
+    </section>
+
+
+</body>
+</html>
